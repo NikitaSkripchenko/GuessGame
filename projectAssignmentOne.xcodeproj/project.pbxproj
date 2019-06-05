@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F5BE97221AAE25300A12E3D /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5BE97121AAE25300A12E3D /* Card.swift */; };
+		8F5BE97421AAF33E00A12E3D /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5BE97321AAF33E00A12E3D /* Concentration.swift */; };
 		8F8C1E1521AAC0EF004C0380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8C1E1421AAC0EF004C0380 /* AppDelegate.swift */; };
-		8F8C1E1721AAC0EF004C0380 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8C1E1621AAC0EF004C0380 /* ViewController.swift */; };
+		8F8C1E1721AAC0EF004C0380 /* ConcentrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8C1E1621AAC0EF004C0380 /* ConcentrationViewController.swift */; };
 		8F8C1E1A21AAC0EF004C0380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C1E1821AAC0EF004C0380 /* Main.storyboard */; };
-		8F8C1E1D21AAC0EF004C0380 /* projectAssignmentOne.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8F8C1E1B21AAC0EF004C0380 /* projectAssignmentOne.xcdatamodeld */; };
 		8F8C1E1F21AAC0F0004C0380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C1E1E21AAC0F0004C0380 /* Assets.xcassets */; };
 		8F8C1E2221AAC0F0004C0380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F8C1E2021AAC0F0004C0380 /* LaunchScreen.storyboard */; };
+		8FCF339421E7865E0044CC69 /* ConcentrationThemeChooserControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCF339221E7865E0044CC69 /* ConcentrationThemeChooserControllerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F5BE97121AAE25300A12E3D /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		8F5BE97321AAF33E00A12E3D /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
 		8F8C1E1121AAC0EF004C0380 /* projectAssignmentOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = projectAssignmentOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8C1E1421AAC0EF004C0380 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F8C1E1621AAC0EF004C0380 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F8C1E1621AAC0EF004C0380 /* ConcentrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationViewController.swift; sourceTree = "<group>"; };
 		8F8C1E1921AAC0EF004C0380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8F8C1E1C21AAC0EF004C0380 /* projectAssignmentOne.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = projectAssignmentOne.xcdatamodel; sourceTree = "<group>"; };
 		8F8C1E1E21AAC0F0004C0380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F8C1E2121AAC0F0004C0380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F8C1E2321AAC0F0004C0380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FCF339221E7865E0044CC69 /* ConcentrationThemeChooserControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ConcentrationThemeChooserControllerViewController.swift; path = projectAssignmentOne/ConcentrationThemeChooserControllerViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		8F8C1E1321AAC0EF004C0380 /* projectAssignmentOne */ = {
 			isa = PBXGroup;
 			children = (
+				8FCF339221E7865E0044CC69 /* ConcentrationThemeChooserControllerViewController.swift */,
 				8F8C1E1421AAC0EF004C0380 /* AppDelegate.swift */,
-				8F8C1E1621AAC0EF004C0380 /* ViewController.swift */,
+				8F8C1E1621AAC0EF004C0380 /* ConcentrationViewController.swift */,
 				8F8C1E1821AAC0EF004C0380 /* Main.storyboard */,
-				8F8C1E1E21AAC0F0004C0380 /* Assets.xcassets */,
-				8F8C1E2021AAC0F0004C0380 /* LaunchScreen.storyboard */,
+				8F5BE97121AAE25300A12E3D /* Card.swift */,
 				8F8C1E2321AAC0F0004C0380 /* Info.plist */,
-				8F8C1E1B21AAC0EF004C0380 /* projectAssignmentOne.xcdatamodeld */,
+				8F8C1E2921AAD9D2004C0380 /* addition files */,
+				8F5BE97321AAF33E00A12E3D /* Concentration.swift */,
 			);
 			path = projectAssignmentOne;
+			sourceTree = "<group>";
+		};
+		8F8C1E2921AAD9D2004C0380 /* addition files */ = {
+			isa = PBXGroup;
+			children = (
+				8F8C1E1E21AAC0F0004C0380 /* Assets.xcassets */,
+				8F8C1E2021AAC0F0004C0380 /* LaunchScreen.storyboard */,
+			);
+			path = "addition files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F8C1E1721AAC0EF004C0380 /* ViewController.swift in Sources */,
+				8F8C1E1721AAC0EF004C0380 /* ConcentrationViewController.swift in Sources */,
+				8F5BE97221AAE25300A12E3D /* Card.swift in Sources */,
+				8FCF339421E7865E0044CC69 /* ConcentrationThemeChooserControllerViewController.swift in Sources */,
+				8F5BE97421AAF33E00A12E3D /* Concentration.swift in Sources */,
 				8F8C1E1521AAC0EF004C0380 /* AppDelegate.swift in Sources */,
-				8F8C1E1D21AAC0EF004C0380 /* projectAssignmentOne.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,19 +356,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		8F8C1E1B21AAC0EF004C0380 /* projectAssignmentOne.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				8F8C1E1C21AAC0EF004C0380 /* projectAssignmentOne.xcdatamodel */,
-			);
-			currentVersion = 8F8C1E1C21AAC0EF004C0380 /* projectAssignmentOne.xcdatamodel */;
-			path = projectAssignmentOne.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 8F8C1E0921AAC0EF004C0380 /* Project object */;
 }
